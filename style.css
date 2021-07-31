@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+body
+{
+    background: #ffecec;
+}
+
+.main-section
+{
+    width: 770px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.main-section .logo
+{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.main-section .logo img
+{
+    width: 100%;
+}
+.main-task
+{
+    border: 1px solid white;
+    background: white;
+    font-size: 15px;
+    margin: 10px auto;
+    width: 80%;
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 10px solid #f06969;
+}
+
+.main-task h1
+{
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.main-task p
+{
+    padding-bottom: 25px;
+}
+ .required
+{
+   color:  #e82222;
+}
+
+
+
+
+.email ,.FundingX, .name, .url,.phone
+{
+    
+    margin: 10px;
+    border: 1px solid #dfe0e4;
+    background: white;
+    font-size: 15px;
+    margin: 10px auto;
+    width: 80%;
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.FundingX .one-liner
+{
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.question
+{
+    padding: 20px 10px;
+}
+.answer
+{
+    padding: 20px 10px;
+}
+
+.answer input
+{
+    border: none;
+    width: 50%;
+    font-size: 14px;
+    outline: none;
+    border-bottom: 2px solid #eeeded;
+}
+
+.btn
+{
+    margin: auto;
+    width: 80%;
+}
+.btn button
+{
+    padding: 7px 22px;
+    font-size: 17px;
+    background: #fa0a32;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn button:hover
+{
+    cursor: pointer;
+    background-color: #f64646;
+}
+
+.never-line
+{    color: gray;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0px;
+    font-size: 12px;
+}
+
+
+.terms-line
+{
+    margin: auto;
+    width: 73%;
+    align-items: center;
+    font-size: 12px;
+    color: gray;
+    padding: 5px 0px;
+}
+
+.terms-line p a
+{
+    color: gray;
+}
+
+.last-line
+{
+    margin: auto;
+    width: 25%;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.last-line a
+{
+    text-decoration: none;
+    color: grey;
+    padding: 25px 0px;
+}
+
+.last-line a .one
+{
+    font-size: 25px;
+    opacity: .7;
+}
+
+.last-line a .two
+{
+    font-size: 25px;
+    opacity: 0.4;
+}
